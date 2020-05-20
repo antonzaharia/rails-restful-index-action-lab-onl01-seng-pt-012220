@@ -1,4 +1,4 @@
-class Student < ActiveRecord::Base
+class Student::StudentHelper < ActiveRecord::Base
   include StudentHelper
 
   def self.to_s
