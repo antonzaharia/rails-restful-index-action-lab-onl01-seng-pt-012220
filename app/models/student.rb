@@ -1,5 +1,5 @@
 class Student < ActiveRecord::Base
-  include StudentHelper
+  include StudentsHelper
 
   def self.to_s
     self.first_name + " " + self.last_name
