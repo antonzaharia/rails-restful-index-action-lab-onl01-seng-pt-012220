@@ -1,3 +1,5 @@
 module StudentsHelper
 
+  StudentsHelper
+
 end
